@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/estindex.css">
+	<title>a que weba</title>
+</head>
+<body onload="Saludar()">
+	<nav id="Barra">
+		<div onclick="Nuevo()">Inicio</div>
+		<div>Contactos</div>
+		<div>Otros</div>
+		<div onclick="edmodo()">edmodo</div>
+	</nav>
+	<section></section>
+	<input type="password" name="" id="ct">
+	<script type="text/javascript" src="./js/action.js"></script>
+
+	<script type="text/javascript">
+		function Iniciar() {
+			// body...
+			var Nombre = prompt ('Bienvenido cual es tu Nombre?')
+			alert ("Buenos dias" + Nombre);
+			document.write(Nombre);
+		}
+		window.addEventListener("load",Iniciar());
+	</script>
+</body>
+</html>
